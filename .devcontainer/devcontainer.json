@@ -1,0 +1,13 @@
+{
+  "name": "division-optimization-tweet",
+  "image": "mcr.microsoft.com/devcontainers/typescript-node:4-24-trixie",
+  "postCreateCommand": "sudo npm install -g @openai/codex",
+  
+  "runArgs": [
+    "--privileged"
+  ],
+
+  "features": {
+    "ghcr.io/jsburckhardt/devcontainer-features/uv:1": {}
+  }
+}
